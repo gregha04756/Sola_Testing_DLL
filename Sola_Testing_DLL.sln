@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sola_Testing_DLL", "Sola_Testing_DLL\Sola_Testing_DLL.vcxproj", "{E7F26082-61CE-4CD6-9ED6-27CAD833C3F7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Testing_Dlg_DLL_Test_Program", "Testing_Dlg_DLL_Test_Program\Testing_Dlg_DLL_Test_Program.vcxproj", "{0DAAD7D2-F9B4-45D0-ABC5-DA1538B85C1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7F26082-61CE-4CD6-9ED6-27CAD833C3F7} = {E7F26082-61CE-4CD6-9ED6-27CAD833C3F7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7F26082-61CE-4CD6-9ED6-27CAD833C3F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7F26082-61CE-4CD6-9ED6-27CAD833C3F7}.Debug|Win32.Build.0 = Debug|Win32
+		{E7F26082-61CE-4CD6-9ED6-27CAD833C3F7}.Release|Win32.ActiveCfg = Release|Win32
+		{E7F26082-61CE-4CD6-9ED6-27CAD833C3F7}.Release|Win32.Build.0 = Release|Win32
+		{0DAAD7D2-F9B4-45D0-ABC5-DA1538B85C1D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DAAD7D2-F9B4-45D0-ABC5-DA1538B85C1D}.Debug|Win32.Build.0 = Debug|Win32
+		{0DAAD7D2-F9B4-45D0-ABC5-DA1538B85C1D}.Release|Win32.ActiveCfg = Release|Win32
+		{0DAAD7D2-F9B4-45D0-ABC5-DA1538B85C1D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
